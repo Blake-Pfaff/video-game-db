@@ -9,7 +9,9 @@ const GameSearch = () => {
 
   return (
     <form onSubmit={handleSearch}>
-      <button type="submit">Submit</button>
+      <button className="m-4 bg-blue-400" type="submit">
+        Submit
+      </button>
     </form>
   );
 };
